@@ -51,7 +51,7 @@ exports.deleteUser = async (req,res, next) =>{
 }
 
 
-exports.updateUser = async (req,res, next) =>{
+exports.updateById = async (req,res, next) =>{
     try {
         const { newname, id,} = req.body;
    
